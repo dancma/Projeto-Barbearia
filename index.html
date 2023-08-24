@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    
+    <title>Barber Shop</title>
+</head>
+<body>
+   <!-- Header -->
+
+   <div class="bg-home">
+    <header>
+
+        <nav class="header-content container">
+            <div class="header-icons" data-aos="fade-down" data-aos-delay="200">
+                
+                <a href="#">
+                    <i class="fa-brands fa-instagram fa-2x"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-facebook fa-2x"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-tiktok fa-2x"></i>
+                </a>
+            </div>
+
+            <div class="header-logo" data-aos="fade-up" data-aos-delay="300">
+                <img 
+                data-aos="flip-up"
+                data-aos-delay="300"
+                data-aos-duration="1500"
+                src="assents/imagens/logo.svg" 
+                alt="Logo da barbearia" 
+                />
+            </div>
+
+            <div data-aos="fade-down" data-aos-delay="200">
+                <a class="header-button" href="https://api.whatsapp.com/send?phone=5599985019202&text=Quero%20fazer%20um%20agendamento!">
+                    Agendar horário
+                </a>
+            </div>
+
+
+        </nav>
+
+        <main class="hero container" data-aos="fade-up" data-aos-delay="400">
+            <h1>FAÇA DO SEU ESTILO UMA ARTE</h1>
+            <P>Horário de funcionamento: 09:00 às 19:00</P>
+            <a href="https://api.whatsapp.com/send?phone=5599985019202&text=Quero%20fazer%20um%20agendamento!" class="button-contact" target="_blank"> <!--target _blank vai permitir que ao clicar no link , abra uma nova aba-->
+            Agende seu horário
+            </a>
+        </main>
+
+    </header>
+   </div>
+
+   
+    <!-- ABOUT -->
+
+    <section class="about">
+        <div class="container about-content">
+            <div 
+            data-aos="zoom-in" 
+            data-aos-delay="100"
+            data-aos-duration="1300">
+                
+            <img 
+                src="assents/imagens/images.svg" 
+                alt="imagens da barbearia"/>
+            
+            </div>
+
+            <div 
+            class="about-description"
+            data-aos="zoom-out-left" 
+            data-aos-delay="250"
+            data-aos-duration="1300" >
+                <h2>Sobre</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel velit saepe laboriosam, reprehenderit, laborum excepturi ratione, temporibus sunt doloribus maiores nostrum voluptatem consequuntur sed et animi. Quam harum fuga odio?</p>
+                <p>Horário de atendimento: <strong>09:00 às 19:00 </strong></p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+
+    <section class="services">
+        <div class="services-content container">
+            <h2>Serviços</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate suscipit dolorum veniam consequatur id qui quae ex eum, culpa, animi fugiat, unde beatae soluta illum possimus eligendi sapiente? Perspiciatis, laboriosam.</p>
+        </div>
+
+        <section class="haircuts">
+            <div class="haircut" data-aos="fade-up" data-aos-delay="250">
+                <img src="./assents/imagens/corte1.png" alt="Corte Normal"/>
+                <div class="haircut-info">
+                    <strong>Corte Normal</strong>
+                    <button> R$ 45,00</button>
+                </div>
+            </div>
+
+            
+
+            <div class="haircut" data-aos="fade-up" data-aos-delay="450">
+                <img src="./assents/imagens/corte2.png" alt="Corte Normal"/>
+                <div class="haircut-info">
+                    <strong>Barba Completa</strong>
+                    <button> R$ 35,00</button>
+                </div>
+            </div>
+
+           
+
+            <div class="haircut" data-aos="fade-up" data-aos-delay="600">
+                <img src="./assents/imagens/corte3.png" alt="Corte Normal"/>
+                <div class="haircut-info">
+                    <strong>Corte e Barba</strong>
+                    <button> R$ 75,00</button>
+                </div>
+            </div>
+
+        
+        </section>
+
+    </section>
+
+    <!-- FOOTER-->
+
+    <div class="services">
+        <h2>Venha Conhecer</h2>
+    </div>
+
+    <iframe 
+    width="100%"
+    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5624.947189271127!2d-43.92337572011713!3d-4.514753957682522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1692836091489!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <footer class="footer">
+        <div class="footer-icons">
+
+            <a href="#">
+                <i class="fa-brands fa-instagram fa-2x"></i>
+            </a>
+
+            <a href="#">
+                <i class="fa-brands fa-facebook fa-2x"></i>
+            </a>
+
+            <a href="#">
+                <i class="fa-brands fa-tiktok fa-2x"></i>
+            </a>
+
+        </div>
+
+        <div>
+        <img src="./assents/imagens/logo.svg" alt="Logo barbearia"/>
+        </div>
+
+        <p><i class="fa fa-copyright" aria-hidden="true"></i> Copyright 2023 | DC Soluções - Todos os direitos reservados</p>
+
+    </footer>
+
+    <!--Button Whatsapp-->
+    <a href="https://api.whatsapp.com/send?phone=5599985019202&text=Quero%20fazer%20um%20agendamento!" 
+    class="btn-whats"
+    target="_blank"
+    data-aos="zoom-in-up"
+    data-aos-delay="400"> <!--o href é uma api do whatsapp onde você vai alterar o número para ser redirecionado e a mensagem que irá aparecer-->
+        <img src="./assents/imagens/whatssapp.svg" alt="botão whatsapp">
+        <span class="tooltip-text">Agende seu horário</span>
+    </a>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
